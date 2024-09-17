@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="mouse-stalker"></div>
+  </div>
+    <main class="fv">
+        <ul class="lists">
+            <li>
+                <a href="">
+                    <img src="sima.png" alt="">
+                    <p>テキストテキスト</p>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="sima.png" alt="">
+                    <p>テキストテキスト</p>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="sima.png" alt="">
+                    <p>テキストテキスト</p>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="sima.png" alt="">
+                    <p>テキストテキスト</p>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="sima.png" alt="">
+                    <p>テキストテキスト</p>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="sima.png" alt="">
+                    <p>テキストテキスト</p>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="sima.png" alt="">
+                    <p>テキストテキスト</p>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="sima.png" alt="">
+                    <p>テキストテキスト</p>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="sima.png" alt="">
+                    <p>テキストテキスト</p>
+                </a>
+            </li>
+        </ul>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        const stalker = document.getElementById('mouse-stalker'); 
+document.addEventListener('mousemove', function (e) {
+    stalker.style.transform = 'translate(' + e.clientX + 'px, ' + e.clientY + 'px)';
+});
+    </script>
+</body>
+</html>

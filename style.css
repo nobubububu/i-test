@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.fv {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(rgba(154, 226, 255, 0.6666666667), 90%, rgba(51, 163, 255, 0.6666666667));
+  position: relative;
+}
+
+.lists {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.lists li {
+  width: 300px;
+  text-align: center;
+}
+.lists li a {
+  transition: 0.2s;
+}
+.lists li a:hover {
+  font-size: 30px;
+  transition: 0.2s;
+}
+
+#mouse-stalker {
+  pointer-events: none;
+  position: fixed;
+  top: -10px;
+  left: -10px;
+  width: 120px;
+  height: 120px;
+  background-image: url(hune.png);
+  background-size: 100% 100%;
+  border-radius: 50%;
+  transform: translate(0, 0);
+  transition: transform 0.2s;
+  transition-timing-function: ease-out;
+  z-index: 999;
+}/*# sourceMappingURL=style.css.map */
